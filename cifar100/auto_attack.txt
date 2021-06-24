@@ -1,0 +1,51 @@
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:55 | [ GPU ] CUDA_VISIBLE_DEVICES: 
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:56 | [torch] Pytorch version: 1.8.0
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:57 | [param] Listing hyper-parameters...
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:58 | [param] dataset    : CIFAR100
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:59 | [param] store_path : /remotedir/robust_model/cifar100/
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:60 | [param] model_name : ./model-best.pt
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:61 | [param] norm       : Linf
+2021-06-23 17:11:59.343 [INFO] eval_pytorch:<module>:62 | [param] epsilon    : 0.031373
+2021-06-23 17:12:02.841 [WARNING] eval_pytorch:<module>:91 | using the original data
+2021-06-23 17:12:20.052 [INFO] other_utils:log:11 | initial accuracy: 64.07%
+2021-06-23 17:15:10.309 [INFO] other_utils:log:11 | apgd-ce - 1/13 - 223 out of 500 successfully perturbed
+2021-06-23 17:18:01.369 [INFO] other_utils:log:11 | apgd-ce - 2/13 - 245 out of 500 successfully perturbed
+2021-06-23 17:20:52.495 [INFO] other_utils:log:11 | apgd-ce - 3/13 - 203 out of 500 successfully perturbed
+2021-06-23 17:23:43.636 [INFO] other_utils:log:11 | apgd-ce - 4/13 - 223 out of 500 successfully perturbed
+2021-06-23 17:26:34.741 [INFO] other_utils:log:11 | apgd-ce - 5/13 - 215 out of 500 successfully perturbed
+2021-06-23 17:29:25.790 [INFO] other_utils:log:11 | apgd-ce - 6/13 - 225 out of 500 successfully perturbed
+2021-06-23 17:32:16.902 [INFO] other_utils:log:11 | apgd-ce - 7/13 - 225 out of 500 successfully perturbed
+2021-06-23 17:35:07.978 [INFO] other_utils:log:11 | apgd-ce - 8/13 - 229 out of 500 successfully perturbed
+2021-06-23 17:37:59.173 [INFO] other_utils:log:11 | apgd-ce - 9/13 - 218 out of 500 successfully perturbed
+2021-06-23 17:40:50.362 [INFO] other_utils:log:11 | apgd-ce - 10/13 - 222 out of 500 successfully perturbed
+2021-06-23 17:43:41.468 [INFO] other_utils:log:11 | apgd-ce - 11/13 - 203 out of 500 successfully perturbed
+2021-06-23 17:46:32.616 [INFO] other_utils:log:11 | apgd-ce - 12/13 - 224 out of 500 successfully perturbed
+2021-06-23 17:48:54.003 [INFO] other_utils:log:11 | apgd-ce - 13/13 - 181 out of 407 successfully perturbed
+2021-06-23 17:48:54.003 [INFO] other_utils:log:11 | robust accuracy after APGD-CE: 35.71% (total time 2193.9 s)
+2021-06-23 18:12:15.039 [INFO] other_utils:log:11 | apgd-t - 1/8 - 61 out of 500 successfully perturbed
+2021-06-23 18:34:48.442 [INFO] other_utils:log:11 | apgd-t - 2/8 - 79 out of 500 successfully perturbed
+2021-06-23 18:57:35.438 [INFO] other_utils:log:11 | apgd-t - 3/8 - 68 out of 500 successfully perturbed
+2021-06-23 19:19:36.029 [INFO] other_utils:log:11 | apgd-t - 4/8 - 87 out of 500 successfully perturbed
+2021-06-23 19:42:16.974 [INFO] other_utils:log:11 | apgd-t - 5/8 - 71 out of 500 successfully perturbed
+2021-06-23 20:04:46.236 [INFO] other_utils:log:11 | apgd-t - 6/8 - 83 out of 500 successfully perturbed
+2021-06-23 20:27:51.542 [INFO] other_utils:log:11 | apgd-t - 7/8 - 56 out of 500 successfully perturbed
+2021-06-23 20:31:38.690 [INFO] other_utils:log:11 | apgd-t - 8/8 - 7 out of 71 successfully perturbed
+2021-06-23 20:31:38.691 [INFO] other_utils:log:11 | robust accuracy after APGD-T: 30.59% (total time 11958.6 s)
+2021-06-23 21:06:55.605 [INFO] other_utils:log:11 | fab-t - 1/7 - 0 out of 500 successfully perturbed
+2021-06-23 21:42:14.199 [INFO] other_utils:log:11 | fab-t - 2/7 - 0 out of 500 successfully perturbed
+2021-06-23 22:17:32.539 [INFO] other_utils:log:11 | fab-t - 3/7 - 0 out of 500 successfully perturbed
+2021-06-23 22:52:50.563 [INFO] other_utils:log:11 | fab-t - 4/7 - 0 out of 500 successfully perturbed
+2021-06-23 23:28:09.417 [INFO] other_utils:log:11 | fab-t - 5/7 - 0 out of 500 successfully perturbed
+2021-06-24 00:03:28.160 [INFO] other_utils:log:11 | fab-t - 6/7 - 0 out of 500 successfully perturbed
+2021-06-24 00:07:16.607 [INFO] other_utils:log:11 | fab-t - 7/7 - 0 out of 59 successfully perturbed
+2021-06-24 00:07:16.608 [INFO] other_utils:log:11 | robust accuracy after FAB-T: 30.59% (total time 24896.5 s)
+2021-06-24 01:00:56.461 [INFO] other_utils:log:11 | square - 1/7 - 0 out of 500 successfully perturbed
+2021-06-24 01:54:33.394 [INFO] other_utils:log:11 | square - 2/7 - 0 out of 500 successfully perturbed
+2021-06-24 02:48:05.296 [INFO] other_utils:log:11 | square - 3/7 - 0 out of 500 successfully perturbed
+2021-06-24 03:41:37.769 [INFO] other_utils:log:11 | square - 4/7 - 0 out of 500 successfully perturbed
+2021-06-24 04:35:11.885 [INFO] other_utils:log:11 | square - 5/7 - 0 out of 500 successfully perturbed
+2021-06-24 05:28:46.149 [INFO] other_utils:log:11 | square - 6/7 - 0 out of 500 successfully perturbed
+2021-06-24 05:32:01.366 [INFO] other_utils:log:11 | square - 7/7 - 0 out of 59 successfully perturbed
+2021-06-24 05:32:01.366 [INFO] other_utils:log:11 | robust accuracy after SQUARE: 30.59% (total time 44381.3 s)
+2021-06-24 05:32:01.512 [INFO] other_utils:log:11 | max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+2021-06-24 05:32:01.512 [INFO] other_utils:log:11 | robust accuracy: 30.59%
